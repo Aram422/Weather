@@ -1,0 +1,34 @@
+.headerContainer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(56, 9, 99);
+}
+
+.searchContainer {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.celsiusContainer {
+  width: 50%;
+  padding-right: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkboxWrapper {
+  width: 100px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.checkBox {
+  cursor: pointer;
+}
